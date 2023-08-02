@@ -1,0 +1,11 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+@media screen and (min-width: 560px) {
+    .titleCo1 {
+        gap: 20px;
+    }
+}

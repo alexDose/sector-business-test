@@ -1,0 +1,13 @@
+tbody td {
+    border: 1px solid #E3E6EC;
+    color: var(--bg-color-primary);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

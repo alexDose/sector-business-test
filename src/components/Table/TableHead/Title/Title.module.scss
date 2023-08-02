@@ -1,0 +1,28 @@
+.title {
+    padding: 20px 20px 20px 130px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.noPadding {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 867px) {
+    .title {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 722px) {
+    .title {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 584px) {
+    .title {
+        flex-direction: column;
+    }
+}

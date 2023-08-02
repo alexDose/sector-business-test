@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 630px;
+    margin-bottom: 18px;
+    background-color: var(--bg-color-secondary);
+    padding: 16px 20px;
+}
+
+.input {
+    width: 100%;
+    color: var(--color-primary);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    outline: none;
+}
+
+.input::placeholder {
+    color: var(--color-secondary);
+}

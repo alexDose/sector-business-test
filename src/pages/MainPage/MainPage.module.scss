@@ -1,0 +1,12 @@
+.container {
+    padding: 20px 70px;
+    margin: 50px 40px;
+    box-shadow: 0 6px 20px 0 #E6E7EA;
+}
+
+@media screen and (max-width: 867px) {
+    .container {
+        padding: 20px 20px;
+        margin: 40px 20px;
+    }
+}
